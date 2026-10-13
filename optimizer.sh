@@ -378,11 +378,6 @@ net.core.rmem_default = 1048576
 net.core.wmem_max = 33554432
 net.core.wmem_default = 1048576
 
-# Increase IP Fragmentation Timeout
-net.ipv4.ipfrag_high_thresh = 524288
-net.ipv4.ipfrag_low_thresh = 446464
-net.ipv4.ipfrag_time = 60
-
 # Memory Optimization
 vm.dirty_background_ratio = 5
 vm.dirty_expire_centisecs = 3000
