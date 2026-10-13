@@ -1,14 +1,4 @@
 #!/bin/sh
-# port-forward.sh - TCP/UDP port forwarding with iptables (Ubuntu 22.04)
-#
-# Usage:
-#   port-forward.sh IP PORT [PROTO]      add forward (local PORT -> IP:PORT)
-#   port-forward.sh add IP PORT [PROTO]  same as above
-#                                        PROTO = tcp | udp | both (default: both)
-#   port-forward.sh del PORT             remove forward by local port
-#   port-forward.sh list             show configured forwards
-#   port-forward.sh apply            re-apply saved rules (used by systemd at boot)
-#
 # Persistence: rules are stored in /etc/port-forward/rules.conf and re-applied
 # at boot by the port-forward.service systemd unit. Only our own iptables
 # chains (PF_PRE, PF_POST, PF_FWD) are touched; other firewall rules are left alone.
