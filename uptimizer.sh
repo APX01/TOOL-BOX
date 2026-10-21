@@ -193,7 +193,7 @@ net.ipv4.tcp_mem = 65536 1048576 33554432
 net.ipv4.tcp_mtu_probing = 1
 net.ipv4.tcp_notsent_lowat = 32768
 net.ipv4.tcp_retries1 = 3
-net.ipv4.tcp_retries2 = 12
+net.ipv4.tcp_retries2 = 8
 net.ipv4.tcp_fastopen = 3
 net.ipv4.tcp_sack = 1
 net.ipv4.tcp_dsack = 1
@@ -203,11 +203,6 @@ net.ipv4.tcp_syncookies = 1
 
 # UDP settings
 net.ipv4.udp_mem = 65536 1048576 33554432
-
-# IPv6 settings
-net.ipv6.conf.all.disable_ipv6 = 0
-net.ipv6.conf.default.disable_ipv6 = 0
-net.ipv6.conf.lo.disable_ipv6 = 0
 
 # Unix domain sockets
 net.unix.max_dgram_qlen = 256
