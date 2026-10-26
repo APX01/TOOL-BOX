@@ -22,7 +22,7 @@ NFTABLES_CONF="/etc/nftables.conf"
 SYSCTL_CONF="/etc/sysctl.d/99-toolbox.conf"
 NETPLAN_DIR="/etc/netplan"
 BACKUP_DIR="/root/toolbox_backups"
-BLOCKLIST_URL="https://raw.githubusercontent.com/APX01/Hetzner-Abuse/main/Ips.txt"
+BLOCKLIST_URL="https://raw.githubusercontent.com/APX01/TOOL-BOX/main/Ips.txt"
 
 # Set to "true" by init_nftables when it had to create/repair something
 NFT_CHANGED="false"
